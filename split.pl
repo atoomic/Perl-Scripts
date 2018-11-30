@@ -6,6 +6,17 @@ use warnings;
 use Test::More;
 use Benchmark qw /timethese cmpthese/;
 
+=pod
+
+Benchmark different method to iterate through a string in Perl
+using split and alternate solutions.
+
+Feel free to submit more Pure Perl solutions.
+
+XS is going to provide a better alternative :-)
+
+=cut
+
 note "Perl $]";
 
 our $char;
